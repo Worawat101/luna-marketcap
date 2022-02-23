@@ -36,7 +36,7 @@ axios
         status: tweet,
       })
       .then((response) => {
-        console.log("Tweeted!", response);
+        console.log("Tweeted!");
       })
       .catch((err) => {
         console.error(err);
